@@ -22,6 +22,24 @@ public class Calculadora{ //lo q está entre llaves está relacionado a la clase
         valor-=sustraendo;
     }
 
+    public void Multiplicacion(double factor)
+    {
+        valor*=factor;
+    }
+
+    public void Dividir(double divisor)
+    {
+        valor/=divisor;
+    }
+
+    public void Limpiar()
+    {
+        valor=0;
+    }
+
+
+
+
 
 
 }
