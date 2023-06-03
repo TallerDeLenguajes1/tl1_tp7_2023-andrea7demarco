@@ -28,7 +28,7 @@ public class Calculadora{ //lo q está entre llaves está relacionado a la clase
     }
 
     public void Dividir(double divisor)
-    {
+    {   
         valor/=divisor;
     }
 

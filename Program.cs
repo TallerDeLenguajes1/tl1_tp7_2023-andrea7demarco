@@ -1,4 +1,4 @@
-﻿using EspacioCalculadora;
+﻿﻿using EspacioCalculadora;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -56,10 +56,3 @@ do {
     Console.Clear();
 
 }while(siNo == 1);
-
-
-
-
-
-
-
