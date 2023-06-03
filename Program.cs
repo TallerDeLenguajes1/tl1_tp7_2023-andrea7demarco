@@ -1,4 +1,4 @@
-﻿﻿using EspacioCalculadora;
+﻿using EspacioCalculadora;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 string? input,siNoStr;
 bool parseoBool;
 int siNo;
-int numero;
+int numero,operacion;
 Calculadora cal=new Calculadora();  //cal objeto q yo quiero crear  
  
 do {
@@ -17,9 +17,10 @@ do {
     Console.WriteLine("4-DIVIDIR");
     Console.WriteLine("5-LIMPIAR");
     input =Console.ReadLine();
-    parseoBool= int.TryParse(input, out int operacion);
-    Console.WriteLine("Ingrese el numero:");
-    parseoBool = int.TryParse(Console.ReadLine(), out numero);
+    parseoBool= int.TryParse(input, out operacion);
+    Console.WriteLine("Ingrese el número:");
+    input = Console.ReadLine();
+    parseoBool = int.TryParse(input, out numero);
     
     switch(operacion){
         case 1:
